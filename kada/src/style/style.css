@@ -1,3 +1,15 @@
 ul li {
   list-style: none;
 }
+body{
+  background: url(//edu-image.nosdn.127.net/f50e762d-e1cc-461d-81d3-6814ed9e6da8.jpg) no-repeat center 0 #edf1f7;
+    background-size: 1920px 260px;
+    width: 100%;
+    position: relative;
+    min-width: 1200px;
+    min-height: 100%;
+    height: auto !important;
+    padding-bottom: 217px;
+    /* background: #edf1f7; */
+    font-family: "Arial","Hiragino Sans GB", \5fae\8f6f\96c5\9ed1, "Helvetica", "sans-serif";
+}
