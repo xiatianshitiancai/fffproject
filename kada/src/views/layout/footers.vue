@@ -1,17 +1,35 @@
 <template>
   <div class="footer">
     <div class="footerbanner">
-      <div class="fl">
-        左边
+      <div class="fl leftbanner">
+        <!-- logo定义 -->
+        <div class="logo">
+          logo
+        </div>
+        <div class="contact">
+          <!--  -->
+          <span>
+            关注我们:
+          </span>
+          <span class="iconfont icon-wechat wechat">
+          </span>
+          <span class="iconfont icon-qq-copy qq">
+          </span>
+        </div>
+        <div>
+          <p>
+            ©1997-2018 网易公司 版权所有
+          </p>
+        </div>
       </div>
       <div class="fr f-cb">
         <dl class="fl">
           <dt>关于我们</dt>
           <dd>社区公约</dd>
-          <dd>社区公约</dd>
-          <dd>社区公约</dd>
-          <dd>社区公约</dd>
-          <dd>社区公约</dd>
+          <dd>关于我们</dd>
+          <dd>使用条款</dd>
+          <dd>网站地图</dd>
+          <dd>加入我们</dd>
         </dl>
         <dl class="fl">
           <dt>帮助反馈</dt>
@@ -37,6 +55,7 @@
           </dt>
           <dd>
             扫码关注官方服务号
+            <br>
           获取STEAM公益课程及干货
           </dd>
         </dl>
@@ -84,13 +103,34 @@
       padding: 38px 0 35px;
       width: 1200px;
       margin: 0 auto;
+      .leftbanner{
+        color: #ffffff;
+        .contact{
+          padding-top: 20px;
+          padding-bottom: 28px;
+          span{
+            padding-right: 12px;
+          }
+          .wechat:hover, .qq:hover{
+            cursor: pointer;
+          }
+        }
+         .logo{
+        width: 180px;
+        height: 40px;
+      }
+      }
       dl {
         margin-left: 54px;
         line-height: 24px;
         color: #ffffff;
+        text-align: center;
         .img{
           width: 90px;
           height: 90px;
+        }
+        dd{
+          line-height: 19px;
         }
         dt{
           font-size: 16px;

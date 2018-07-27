@@ -35,6 +35,7 @@
         </ul>
       </div>
       <div class="search fl">
+        <span class="iconfont icon-sousuo sousuo"></span>
         <input type="text">
       </div>
       <div class="submit fl">
@@ -155,6 +156,14 @@
       }
     }
     .search {
+      position: relative;
+      .sousuo{
+        right: 10px;
+        top: 2px;
+        position: absolute;
+        font-weight: 900;
+        font-size: 16px;
+      }
       input {
         display: inline-block;
         width: 288px;
@@ -172,6 +181,7 @@
     .submit {
       color: #ffffff;
       padding-left: 30px;
+      font-size: 16px;
       // line-height: 30px;
       span {
         height: 30px;

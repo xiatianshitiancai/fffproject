@@ -3,6 +3,7 @@
    <navheader></navheader>
    <maincontent></maincontent>
    <footers></footers>
+   <backtop></backtop>
  </div>
 </template>
 
@@ -10,6 +11,7 @@
 import navheader from './navheader'
 import maincontent from './maincontent'
 import footers from './footers'
+import backtop from './backtop'
  export default {
    data () {
      return {
@@ -19,7 +21,8 @@ import footers from './footers'
    components: {
      navheader,
      maincontent,
-     footers
+     footers,
+     backtop
    }
  }
 </script>
